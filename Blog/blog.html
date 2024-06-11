@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+    <nav class="nav-list">
+        <div><a href="../Home/index.html" class="brand">
+            <img src="logo.png" alt="logo" class="logo">
+         </a>
+     </div>
+        <ul id="navItems">
+            <li><a href="../Home/index.html">Home</a></li>
+            <li><a href="../Class/class.html">Classes</a></li>
+            <li><a href="../Product/product.html">Products</a></li>
+            <li ><a href="../Blog/blog.html">Blogs</a></li>
+            <li><button class="joinbtn" id="joinbtn">Join Us</button></li>
+        </ul>
+        <div class="menu-icon">
+            <img src="searchlogo.png" alt="Search">
+            <img src="hamburgerlogo.png" alt="Hamburger-logo" onclick="toggleMenu()">
+        </div>
+    </nav>
+
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <form>
+                <label for="fullname"> Full Name</label>
+                <input type="text" id="fullname">
+                <label for="email">Email</label>
+                <input type="email" id="email">
+                <label for="mobile">Mobile Number</label>
+                <input type="number" id="mobile">
+                <label for="duration">Duration</label>
+                <input type="radio" id="duration" name="first">Monthly
+                <input type="radio" id="duration " name="first">Yearly
+                <label for="mode"> Mode Of Payment</label>
+                <input type="radio" id="mode" name="second">Cash
+                <input type="radio" id="mode " name="second">Online
+                <label for="training"> Personal Training</label>
+                <input type="radio" id="training" name="third">Required
+                <input type="radio" id="training " name="third">Not Required
+                <br><br>
+                <input type="checkbox" value="checkbox" id="box">
+                <label for="box">I accept all terms and conditions provided in this form.</label>
+                <button type="submit">Buy Plan</button>
+            </form>
+        </div>
+    </div>
+
+<!-- Blog Section -->
+
+<section class="blog1-container">
+    <div class="blog-1"><img src="blog1.jpg" alt="BLOG-1"></div>
+    <div class="blog-description-1">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+           when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+           It has survived not only five centrelease of Letraset sheets containing Lorem Ipsum passages, 
+           and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+        </p>
+    </div>
+</section>
+
+
+<section class="blog2-container">
+    <div class="blog2">
+        <div class="blog-description-2">
+            <h2>BENEFITS OF A HEALTHY DIET</h2>
+            <li>May help you live longer.</li>
+            <li>Keeps skin, teeth, and eyes healthy.</li>
+            <li>Supports muscles.</li>
+            <li>Boosts immunity.</li>
+            <li>Strengthens bones.</li>
+            <li>Supports healthy pregnancies and breastfeeding.</li>
+            <li>Helps the digestive system function</li>
+        </div>
+        <div class="blog-2"><img src="blog2.jpg" alt="BLOG-2"></div>
+    </div>
+</section>
+
+<section class="blog3-container">
+    <div class="blog-description-3">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+           when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+           It has survived not only five centrelease of Letraset sheets containing Lorem Ipsum passages, 
+           and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+        </p>
+    </div>
+    <div class="blog-3"><img src="blog3.jpg" alt="BLOG-3"></div>
+</section>
+
+
+<!-- Footer -->
+<section class="info">
+    <div class="moto">
+        <div><img src="logo.png" alt="logo" class="logo"></div>
+        <p>Prioritize Your Fitness Goals with our world class services</p>
+    </div>
+    <div class="company">
+        <li><h3>COMPANY</h3></li>
+        <li>About</li>
+        <li>Careers</li>
+        <li>Blogs</li>
+    </div>
+    <div class="contact">
+        <li><h3>CONTACT</h3></li>
+        <li>Help/FAQs</li>
+        <li>Press</li>
+        <li>Mobile</li>
+    </div>
+    <div class="more">
+        <li><h3>More</h3></li>
+        <li>Program</li>
+        <li>Plans</li>
+        <li>Method</li>
+    </div>
+    <div class="popular-tags">
+        <h1>Popular Tags</h1>
+        <button class="PT-type1">ABS</button>
+        <button class="PT-type1">Workout</button>
+        <button class="PT-type2">Nutrition</button>
+        <button class="PT-type1">GYM</button>
+        <button class="PT-type1">Boxing</button>
+        <button class="PT-type2">Trainers</button>
+        <button class="PT-type2">Facilities</button>
+    </div>
+</section>
+
+<footer>
+    <h4>CopyRight All Right Reserved</h4>
+</footer>
+
+    
+    <script src="../script.js"></script>
+</body>
+</html>

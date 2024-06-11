@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="class.css">
+</head>
+<body>
+    <nav class="nav-list">
+        <div><a href="../Home/index.html" class="brand">
+            <img src="logo.png" alt="logo" class="logo">
+         </a>
+     </div>
+        <ul id="navItems">
+            <li><a href="../Home/index.html">Home</a></li>
+            <li><a href="../Class/class.html">Classes</a></li>
+            <li><a href="../Product/product.html">Products</a></li>
+            <li ><a href="../Blog/blog.html">Blogs</a></li>
+            <li><button class="joinbtn" id="joinbtn">Join Us</button></li>
+        </ul>
+        <div class="menu-icon">
+            <img src="searchlogo.png" alt="Search">
+            <img src="hamburgerlogo.png" alt="Hamburger-logo" onclick="toggleMenu()">
+        </div>
+    </nav>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <form>
+                <label for="fullname"> Full Name</label>
+                <input type="text" id="fullname">
+                <label for="email">Email</label>
+                <input type="email" id="email">
+                <label for="mobile">Mobile Number</label>
+                <input type="number" id="mobile">
+                <label for="duration">Duration</label>
+                <input type="radio" id="duration" name="first">Monthly
+                <input type="radio" id="duration " name="first">Yearly
+                <label for="mode"> Mode Of Payment</label>
+                <input type="radio" id="mode" name="second">Cash
+                <input type="radio" id="mode " name="second">Online
+                <label for="training"> Personal Training</label>
+                <input type="radio" id="training" name="third">Required
+                <input type="radio" id="training " name="third">Not Required
+                <br><br>
+                <input type="checkbox" value="checkbox" id="box">
+                <label for="box">I accept all terms and conditions provided in this form.</label>
+                <button type="submit">Buy Plan</button>
+            </form>
+        </div>
+    </div>
+
+    <!--Hero Section-->
+
+    <section class="hero-section">
+        <h1>Our Classes</h1>
+        <div class="our-classes">
+            <div>
+                <div class="class-image1"></div>
+                <p>6:30 - 7:30 AM</p>
+                <button>Power Excello</button>
+            </div>
+            <div>
+                <div class="class-image2"></div>
+                <p>6:30 - 7:30 AM</p>
+                <button>Mixed-Level Excello</button>
+            </div>
+            <div>
+                <div class="class-image3"></div>
+                <p>6:30 - 7:30 AM</p>
+                <button>Beginner Level</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="Trainers">
+        <h1>Our Training Partners</h1>
+        <div class="train">
+            <div >
+                <img src="t1.jpg" alt=""><br>
+                <button>John Smith</button>
+            </div>
+            <div>
+                <img src="t2.jpg" alt=""><br>
+                <button>Anais Louis</button>
+            </div>
+            <div>
+                <img src="t3.jpg" alt=""><br>
+                <button>Phil heath</button>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="training"></section>
+
+<!-- Footer -->
+
+<section class="info">
+    <div class="moto">
+        <div><img src="logo.png" alt="logo" class="logo"></div>
+        <p>Prioritize Your Fitness Goals with our world class services</p>
+    </div>
+    <div class="company">
+        <li><h3>COMPANY</h3></li>
+        <li>About</li>
+        <li>Careers</li>
+        <li>Blogs</li>
+    </div>
+    <div class="contact">
+        <li><h3>CONTACT</h3></li>
+        <li>Help/FAQs</li>
+        <li>Press</li>
+        <li>Mobile</li>
+    </div>
+    <div class="more">
+        <li><h3>More</h3></li>
+        <li>Program</li>
+        <li>Plans</li>
+        <li>Method</li>
+    </div>
+    <div class="popular-tags">
+        <h1>Popular Tags</h1>
+        <button class="PT-type1">ABS</button>
+        <button class="PT-type1">Workout</button>
+        <button class="PT-type2">Nutrition</button>
+        <button class="PT-type1">GYM</button>
+        <button class="PT-type1">Boxing</button>
+        <button class="PT-type2">Trainers</button>
+        <button class="PT-type2">Facilities</button>
+    </div>
+</section>
+
+
+<footer>
+    <h4>CopyRight All Right Reserved</h4>
+</footer>
+
+    
+
+    <script src="../script.js"></script>
+</body>
+</html>
